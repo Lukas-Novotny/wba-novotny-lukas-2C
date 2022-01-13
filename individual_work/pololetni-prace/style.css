@@ -43,10 +43,15 @@ justify-content: space-around;
 .leva{
 background-color: hotpink;
 width: 100px;
-height: 100px;
+height: 100%;
 
 align-self: flex-start;
 justify-self: flex-start;
+}
+.prava{
+ background-color: chartreuse;
+
+
 }
 .nadpis{
 display: flex;
