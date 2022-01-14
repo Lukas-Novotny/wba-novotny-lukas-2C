@@ -43,8 +43,8 @@ justify-content: space-around;
 .leva{
 background-color: hotpink;
 width: 100px;
-height: 100px;
-
+height: 100vh;
+display: flex;
 align-self: flex-start;
 justify-self: flex-start;
 }
