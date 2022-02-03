@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,121 @@
     <link rel="stylesheet" href="reset.css">
     <title>Pololetní Práce</title>
 </head>
+
 <body>
-    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Up</button>
     <div class="pozadi">
-        
-    <div class="header">
-        <div class="header1">
-            <div class="popisky">O MNĚ</div>
-            <div class="popisky">PROJEKTY</div>
-            <div class="popisky">FOTKY</div>
+        <div class="header">
+            <div class="header1">
+                <div class="popisky"> <a href="#pomoc">O MNĚ</a> </div>
+                <div class="popisky"><a href="#pomoc2">FOTKY</a> </div>
+                <div class="popisky"><a href="#ctvrta-cast">KONTAKTY</a></div>
+            </div>
         </div>
-    </div> 
-    <div class="podheader" style="background-image:url('minimalist-wallpaper-1920x1080-1.jpg') ;">
-        <div class="leva"> </div>
-        <div class="stred"> <div class="nadpis">Lukáš Novotný</div></div>
-        <div class="prava"> </div>
-    </div>
-    <div class="druha-cast"></div>
+        <div class="podheader" style="background-image:url('minimalist-wallpaper-1920x1080-1.jpg') ;">
+            <div class="leva"> </div>
+            <div class="stred">
+                <div class="nadpis">Lukáš Novotný</div>
+            </div>
+            <div class="prava"> </div>
+        </div>
+        <section id="pomoc"></section>
+        <section id="druha-cast">
+            <div class="o-mne">O MNĚ</div>
+            <section class="plocha">
+                <div class="ctverec">
+                    <div>
+                        <h2 class="textnadpis underline">Pozemní hokej</h>
+                    </div>
+                    <div class="textokno">
+                        <p class="text">Pozemní hokej hraju již 7 let. Celou dobu za klub hc President, ale jednu sezónu
+                            jsem hostoval za tým hc Praga 1946. Většinu času hraju na pozici pravého obránce.</p>
+                    </div>
+
+                </div>
+                <div class="ctverec">
+                    <div>
+                        <h2 class="textnadpis underline">Střední škola</h2>
+                    </div>
+                    <div>
+                        <p class="text">V roce 2021 jsem nastoupil na Smíchovskou střední průmyslovou školu, kde nyní
+                            studuji 2. ročník obor IT. Nejvíce ze všech předmětů mě baví WBA ;).</p>
+                    </div>
+                </div>
+                <div class="ctverec">
+                    <h2 class="textnadpis underline">Počítačové hry</h2>
+                    <p class="text">Mezi mé oblíbené hry na počítač patří Minecraft, League of Legends, Terarria, GTA V,
+                        Tetris, Hledání min a Oheň a voda. Dříve jsem hraním her trávil většinu svého volného času, ale
+                        kvůli škole a sportu se z hraní stala spíš výjmečná věc.</p>
+
+                </div>
+                <div class="ctverec"></div>
+            </section>
+        </section>
+
+        <section id="pomoc2"></section>
+        <section id="treti-cast">
+            <div class="o-mne">FOTKY</div>
+            <div class="plocha centrovani ">
+                <div class="fotky"></div>
+                <div class="fotky"></div>
+                <div class="fotky"></div>
+
+                <div class="fotky"></div>
+            </div>
+
+
+        </section>
+        <section id="ctvrta-cast">
+            <div class="o-mne">KONTAKTY</div>
+            <div class="plocha2">
+                <div class="kontakty">
+                    <div class="kontakt-nadpis">EMAIL</div>
+                    <div class="kontakt-text">lukasnovotny@gmail.com</div>
+                </div>
+                <div class="kontakty">                    
+                    <div class="kontakt-nadpis">TELEFON</div>
+                    <div class="kontakt-text">+420 720548698</div>
+                 </div>
+                <div class="kontakty">
+                    <div class="kontakt-nadpis">TWITTER</div>
+                    <div class="kontakt-text">@twitternemam</div>
+                </div>
+                <div class="kontakty">
+                    <div class="kontakt-nadpis">INSTAGRAM</div>
+                    <div class="kontakt-text">@instagramnedam</div>
+                </div>
+            </div>
+
+
+
+
+        </section>
 
     </div>
+
+    </div>
+
+    </div>
+    <script>//Get the button:
+        mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }</script>
 </body>
+
 </html>
