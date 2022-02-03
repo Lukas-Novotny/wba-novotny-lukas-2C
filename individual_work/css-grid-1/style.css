@@ -1,0 +1,36 @@
+.container{
+display: flex;
+height: 60vh;
+width: 100vw;
+align-items: center;
+justify-content: center;
+
+background-color: brown;
+
+}
+.grid{
+display: grid;
+height: 50vh;
+width: 80vw;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 5vh  ;
+background-color: cadetblue;
+}
+
+.box{
+background-color: rgb(108, 108, 202);
+padding: 5vh;
+}
+
+.box:first-child {
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.box:last-child{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box.box:nth-child(2n  ){
+
+}
