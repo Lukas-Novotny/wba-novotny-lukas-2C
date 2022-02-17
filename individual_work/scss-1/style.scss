@@ -1,0 +1,18 @@
+$main-color: yellow; 
+
+
+
+body{
+    background-color: $main-color;
+}
+.content{
+    background-color: grey;
+ p{
+    color: hotpink;
+  }
+
+}
+p{
+    color: indigo;
+    font-size: 2rem;
+}

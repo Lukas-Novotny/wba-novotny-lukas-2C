@@ -1,0 +1,17 @@
+body {
+  background-color: yellow;
+}
+
+.content {
+  background-color: grey;
+}
+
+.content p {
+  color: hotpink;
+}
+
+p {
+  color: indigo;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */

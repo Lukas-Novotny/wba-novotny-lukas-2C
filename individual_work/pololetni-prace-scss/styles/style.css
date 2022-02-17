@@ -1,0 +1,404 @@
+.pozadi {
+  background-color: grey;
+  width: 100%;
+  height: 341vh;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background: #2c6f80;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.header1 {
+  background-color: #2d3546;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  height: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0px 0px 17px 20px #363333;
+  box-shadow: 0px -36px 3px 42px #2d3546;
+}
+
+.popisky {
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.603);
+  color: #2d3546;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.603);
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.podheader {
+  background-color: lightseagreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-image: url("../images/minimalist-wallpaper-1920x1080-1.jpg");
+}
+
+.leva {
+  background-color: hotpink;
+  width: 100px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+  background-image: url("../images/modry-listy.gif");
+}
+
+.stred {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prava {
+  background: rgba(0, 0, 0, 0);
+  width: 400px;
+  height: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+  background-image: url("../images/modry-listy.gif");
+}
+
+.nadpis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-shadow: 2px 2px #3700ff;
+  font-size: 100px;
+  padding: 5px;
+  margin-bottom: 10vh;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+#pomoc {
+  position: absolute;
+  height: 40vh;
+  width: 1vw;
+  top: 91vh;
+}
+
+#druha-cast {
+  width: 100%;
+  height: 90vh;
+  background-image: url(modra4.jpg);
+  background-color: royalblue;
+}
+
+.o-mne {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.plocha {
+  width: 100%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ctverec {
+  margin: 50px;
+  background-color: #1ea2b9;
+  width: 40%;
+  height: 30%;
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.text {
+  padding-top: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.textnadpis {
+  margin: 10px;
+}
+
+.text, .popisky, a, .o-mne, .textnadpis, .kontakt-nadpis, .kontakt-text {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#pomoc2 {
+  position: absolute;
+  height: 40vh;
+  width: 1vw;
+  top: 181vh;
+}
+
+#treti-cast {
+  background-image: url("modra5.png");
+  height: 90vh;
+  width: 100%;
+}
+
+.centrovani {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.barva {
+  background-color: brown;
+}
+
+.fotky {
+  width: 20%;
+  height: 80%;
+  margin: 25px;
+}
+
+.fotky:nth-child(1) {
+  background-image: url("1new.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  background-size: 100%;
+}
+
+.fotky {
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-position: center;
+  background-size: 100%;
+}
+
+.fotky:nth-child(2) {
+  background-image: url("5.jpg");
+}
+
+.fotky:nth-child(3) {
+  background-image: url("4.jfif");
+}
+
+.fotky:nth-child(4) {
+  background-image: url("7.jfif");
+}
+
+#ctvrta-cast {
+  width: 100%;
+  height: 65vh;
+  background-color: brown;
+  background-image: url("modra6.png");
+}
+
+.plocha2 {
+  width: 100%;
+  height: 80%;
+  padding: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.kontakty {
+  height: 20%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.kontakt-nadpis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.7rem;
+  border-right: solid black;
+  border-width: 10px;
+  font-weight: bold;
+}
+
+.kontakt-text {
+  padding-left: 10px;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=style.css.map */
