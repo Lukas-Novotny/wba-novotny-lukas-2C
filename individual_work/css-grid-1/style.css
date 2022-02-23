@@ -1,0 +1,42 @@
+.container{
+display: flex;
+height: 60vh;
+width: 100vw;
+align-items: center;
+justify-content: center;
+
+
+}
+.grid{
+display: grid;
+height: 50vh;
+width: 80vw;
+grid-template-columns: 1fr ;
+gap: 5vh  ;
+}
+
+.box{
+background-color: rgb(108, 108, 202);
+padding: 5vh;
+font-size: 20px;
+}
+
+
+@media only screen and (min-width:700px) {
+    .box{
+        background-color:red;
+
+        }
+    .grid{
+            grid-template-columns:1fr 1fr 1fr ;
+        }
+        .box:first-child {
+
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .box:last-child{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+}

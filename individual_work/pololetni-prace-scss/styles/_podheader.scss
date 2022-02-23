@@ -1,0 +1,54 @@
+
+$listy: url("../images/modry-listy.gif");
+
+.podheader{
+    
+    background-color: lightseagreen;
+    display:flex;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-image: url("../images/minimalist-wallpaper-1920x1080-1.jpg");
+
+}
+.leva{
+background-color: hotpink;
+width: 100px;
+height: 100vh;
+display: flex;
+background: rgba(0,0,0,0);
+width: 400px;
+height: 100%;
+
+align-self: flex-start;
+justify-self: flex-start;
+background-image: $listy
+}
+.stred{
+height: 100%;
+width: 100% ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.prava{
+    background: rgba(0,0,0,0);
+    width: 400px;
+    height: 100%;
+
+    align-self: flex-start;
+    justify-self: flex-start;
+    background-image: $listy;
+}
+
+
+.nadpis{
+display: flex;
+text-shadow: 2px 2px #3700ff;
+
+font-size:100px;
+padding: 5px;
+margin-bottom: 10vh;
+}

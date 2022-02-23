@@ -1,0 +1,53 @@
+#druha-cast{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../images/modra4.jpg");
+    background-color: blue;
+}
+.o-mne{
+    width: 100%;
+    height: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.plocha{
+width: 100%;
+height: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around
+}
+.ctverec{
+margin: 50px;
+background-color: rgb(30, 162, 185);
+width:40%;
+height: 30%;
+border-top-left-radius:10%;
+border-bottom-right-radius: 10%;
+}
+.text{
+padding-top: 0;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+font-family: Roboto, Helvetica, Arial, sans-serif;
+font-size: 1rem;
+text-decoration: none;
+
+}
+.textnadpis{
+margin: 10px;
+
+}
+.text, .popisky ,a ,.o-mne, .textnadpis, .kontakt-nadpis, .kontakt-text
+{
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.underline
+{
+    text-decoration-line: underline;
+}
