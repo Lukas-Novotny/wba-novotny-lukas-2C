@@ -1,0 +1,50 @@
+#treti-cast
+{
+    background-image: url("../images/modra5.png");
+    height: 90vh;
+    width: 100%;    
+}
+.centrovani{
+    align-items: center;
+}
+
+.barva
+{
+background-color: brown;
+}
+.fotky{
+
+    width:20%;
+    height: 80%;
+    margin: 25px;
+}
+.fotky:nth-child(1)
+{
+background-image: url("../images/1new.jpg");
+background-repeat: no-repeat;
+max-width: 100%;
+background-position: center;
+background-size:100%;
+
+}
+.fotky{
+    background-repeat: no-repeat;
+max-width: 100%;
+background-position: center;
+background-size:100%;
+}
+.fotky:nth-child(2)
+{
+    background-image: url("../images/5.jpg");
+
+}
+.fotky:nth-child(3)
+{
+    background-image: url("../images/4.jfif");
+
+}
+.fotky:nth-child(4)
+{
+    background-image: url("../images/7.jfif");
+
+}
