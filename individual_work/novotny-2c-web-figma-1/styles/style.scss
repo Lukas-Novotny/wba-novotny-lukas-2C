@@ -1,6 +1,10 @@
-
-@import"prvni-cast";
-
+$header-footer-color:#CBC1B1;
+$main-color:#E5E5E5;
+$font:Lato;
+@import"first-part";
+@import"header";
+@import"global";
+@import"footer";
 
 
 
@@ -10,3 +14,7 @@
 
 
 @import"reset";
+
+.first-part{
+    font-family: $font;
+}
