@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100vw;
+  width: 100%;
   height: 1048px;
   background-color: #E5E5E5;
   -webkit-box-align: center;
@@ -45,12 +45,71 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-left: 200px;
+  margin-left: 50%;
+}
+
+.navigation {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    height: 150px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo {
+    margin-left: 163px;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 55px;
+    width: 150px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .navigation:nth-child(2) {
+    margin-left: 33%;
+    width: 150px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: #7C7474;
+  }
+  .navigation:nth-child(3) {
+    width: 280px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .navigation:nth-child(4) {
+    width: 113px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
 }
 
 .under-header {
   width: 310px;
   height: 888px;
+}
+
+.under-header-2 {
+  width: 310px;
+  height: 638px;
 }
 
 .under-header-box {
@@ -231,8 +290,16 @@
   background-color: #7C7474;
 }
 
+@media screen and (min-width: 600px) {
+  .under-header {
+    background-image: url(../images/hero-image.png);
+    background-position: center;
+    width: 100%;
+  }
+}
+
 .footer {
-  width: 100vw;
+  width: 100%;
   height: 88px;
   background-color: #CBC1B1;
   display: -webkit-box;
