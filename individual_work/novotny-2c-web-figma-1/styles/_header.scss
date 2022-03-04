@@ -40,7 +40,8 @@ margin-left:50%;
         height: 150px;
         width: 150px;
         background-size:cover;
-    }
+        position: absolute;
+        }
     .burger-menu{
         display: none;
     }
@@ -55,7 +56,7 @@ margin-left:50%;
     }
 
     .navigation:nth-child(2){
-        margin-left: 33%; 
+        margin-left: 60%; 
         width: 150px;
         padding-left:18px ;
         padding-right: 18px;
