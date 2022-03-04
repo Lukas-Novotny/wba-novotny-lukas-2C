@@ -1,7 +1,11 @@
 .under-header{
     width: 310px;
-    height: 888px;
+    height: 250px;
     }
+.second{
+    width: 310px;
+    height: 638px;
+}
  .under-header-box{
     
         width: 100%;
@@ -9,7 +13,7 @@
         align-items: center;
 }
     
-.under-header-box:nth-child(1){
+.first-part-box-1{
     height: 200px;
     margin-top:50px ;
     display: flex;
@@ -17,22 +21,21 @@
     background-color: #7C7474;
 
 }
-.under-header-box:nth-child(2){
-        display: flex;
+.title{
+    display: flex;
     height: 13px;
     margin-top: 50px;
     font-size: 0.6875rem;
     align-items: center;
     justify-content: center;
 }
-    .under-header-box:nth-child(3){
-        
+    .offers{
         display: grid;
         height: 429px;
         margin-top: 32px;
         gap: 38.8px;
     }
-    .under-header-box:nth-child(4){
+    .end-button{
         height: 25px;
         margin-top: 39px;
         display: flex;
@@ -124,3 +127,14 @@
     background-color: #7C7474;
     
 }
+@media screen and (min-width: 600px) {
+    .under-header{
+        background-image: url(../images/hero-image.png);
+        background-position: center;
+        width: 100%;
+     }
+    .first-part{
+        height: fit-content;
+    }
+
+  }
