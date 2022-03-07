@@ -5,6 +5,7 @@
     height: 80px;
     background-color: $header-footer-color;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 .logo{
@@ -21,7 +22,9 @@ background-image: url(../images/burgermenu.svg);
 width: 30px;
 height: 30px;
 align-self: center;
-margin-left:50%; 
+background-repeat:no-repeat;
+margin-right: 40px;
+
 }
 .navigation{
     display: none;
@@ -29,16 +32,16 @@ margin-left:50%;
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
     .header{
-        height: 150px;
+        height: 19vh;
         align-items: center;
         
     }
     .logo{
-        margin-left: 163px;
-        height: 150px;
-        width: 150px;
+        margin-left: 8vw;
+        height: 19vh;
+        width: 19vh;
         background-size:cover;
         position: absolute;
         }
@@ -47,18 +50,18 @@ margin-left:50%;
     }
     .navigation{
         display: flex;
-        height:55px;
-        width: 150px;
+        height:8vh;
+        width: 10vw;
         align-items: center;
         justify-content: center;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-weight: 700;
     }
 
     .navigation:nth-child(2){
-        margin-left: 60%; 
-        width: 150px;
-        padding-left:18px ;
+        margin-left: 60vw; 
+        width:150px;
+        padding-left:18px;
         padding-right: 18px;
         background-color: #7C7474;
 
@@ -72,6 +75,7 @@ margin-left:50%;
         width: 113px;
         padding-left:18px ;
         padding-right: 18px;
+        margin-right: 8vw;
     }
     
   }

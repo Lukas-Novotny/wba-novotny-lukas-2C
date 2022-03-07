@@ -1,0 +1,15 @@
+$header-footer-color:#CBC1B1;
+$main-color:#E5E5E5;
+$font:Lato;
+@import "header";
+@import"global";
+
+
+
+
+
+@import "footer";
+@import "reset";
+body{
+    font-family: $font;
+}
