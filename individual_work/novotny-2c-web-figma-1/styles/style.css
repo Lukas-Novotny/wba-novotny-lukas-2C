@@ -228,6 +228,8 @@
             justify-content: center;
     font-size: 1.125rem;
     font-weight: 700;
+    text-decoration: none;
+    color: black;
   }
   .navigation:nth-child(2) {
     margin-left: 60vw;
@@ -246,6 +248,9 @@
     padding-left: 18px;
     padding-right: 18px;
     margin-right: 8vw;
+  }
+  .navigation:hover {
+    background-color: #7c747473;
   }
 }
 
