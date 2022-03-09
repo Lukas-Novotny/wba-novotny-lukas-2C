@@ -1,4 +1,7 @@
-
+@mixin centering {
+    justify-content: center;
+    align-items: center;
+}
 .header{
     display: flex;
     width: 100%;
@@ -48,11 +51,10 @@ margin-right: 40px;
         display: none;
     }
     .navigation{
+        @include centering();
         display: flex;
         height:8vh;
         width: 10vw;
-        align-items: center;
-        justify-content: center;
         font-size: 1.125rem;
         font-weight: 700;
         text-decoration: none;
