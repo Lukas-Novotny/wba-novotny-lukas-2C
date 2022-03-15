@@ -1,0 +1,24 @@
+$header-footer-color:#CBC1B1;
+$main-color:#E5E5E5;
+$font:Lato;
+@import "header";
+@import"global";
+
+
+
+
+
+@import "footer";
+@import "reset";
+body{
+    font-family: $font;
+}
+.navigation:nth-child(2){
+    background-color:$header-footer-color ;
+}
+.navigation:nth-child(3){
+    background-color:#7C7474;
+}
+.navigation:hover{
+    background-color:#7c747473 ;
+}

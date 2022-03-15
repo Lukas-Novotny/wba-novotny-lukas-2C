@@ -1,0 +1,22 @@
+$header-footer-color:#CBC1B1;
+$main-color:#E5E5E5;
+$font:Lato;
+@import "header";
+@import"global-kontakt";
+.all{
+    font-family: $font;
+    height: 100vh
+}
+.navigation:nth-child(2){
+    background-color: $header-footer-color;
+}
+.navigation:nth-child(4){
+    background-color:#7C7474;
+}
+.navigation:hover{
+    background-color:#7c747473 ;
+}
+
+
+@import "footer";
+@import "reset";

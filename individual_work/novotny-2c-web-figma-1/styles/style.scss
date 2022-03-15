@@ -3,7 +3,7 @@ $main-color:#E5E5E5;
 $font:Lato;
 @import"first-part";
 @import"header";
-@import"global";
+@import"second-part";
 @import"footer";
 
 
@@ -15,6 +15,6 @@ $font:Lato;
 
 @import"reset";
 
-.first-part{
+.all{
     font-family: $font;
 }
