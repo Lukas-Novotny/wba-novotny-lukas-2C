@@ -230,6 +230,7 @@
     font-weight: 700;
     text-decoration: none;
     color: black;
+    margin-right: 2rem;
   }
   .navigation:nth-child(2) {
     margin-left: 60vw;
