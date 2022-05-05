@@ -34,7 +34,11 @@ margin-right: 40px;
 
 }
 
-
+@media screen and (min-width: 900px) {
+    .navigation:nth-child(2){
+        margin-left: 60vh;
+    }
+}
 @media screen and (min-width: 768px) {
     .header{
         height: 19vh;
@@ -64,7 +68,7 @@ margin-right: 40px;
   
 
     .navigation:nth-child(2){
-        margin-left: 60vw; 
+        margin-left: 50vw; 
         width:150px;
         padding-left:18px;
         padding-right: 18px;
