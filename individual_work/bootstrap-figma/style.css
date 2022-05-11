@@ -1,0 +1,24 @@
+.back1{
+    height: 100vh;
+    background-image: linear-gradient(blue,);
+    background-repeat: no-repeat;
+    background-color: blue;
+
+    }
+
+.back2 {
+        height: 100vh;
+        width: 100vw;
+        background-color: blue;
+        background-image: linear-gradient(to top, red, transparent  );
+    }
+.header-color{
+ background-color:  rgba(113, 121, 126, 1);
+}
+.rnd-color{
+    background-color: aqua;
+}
+.li-item{
+    background-color: green;
+    border-radius: 15%;
+}
