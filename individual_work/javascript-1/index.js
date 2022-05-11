@@ -11,10 +11,17 @@ var notVisible = document.getElementsByClassName("visiblent")
 //     console.log(notVisible.length)
 // }
  
-function toggle() {
-    var element = document.getElementById("text");
-    element.classList.toggle("visiblent");
-    element.classList.toggle("text");
+// function toggle() {
+//     var element = document.getElementById("text");
+//     element.classList.toggle("visiblent");
+//     element.classList.toggle("text");
 
-  }
+//   }
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("div#text").toggleClass("visiblent");
+      $("div#text").toggleClass("text");
+
+    });
+  });
   
