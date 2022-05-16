@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bacha{
     background-color: aqua;
     height: 100px;
@@ -6,4 +7,23 @@
 button{
     height: 30px;
     width: 50px;
+=======
+.visiblent{
+    display: none;
+}
+.text{
+    margin-top: 1rem;
+    width: 90vw;
+    height: 20vh;
+    border-style: solid;
+    border-color: brown;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+}
+
+#btn{
+    width: 60px;
+    height: 20px;
+>>>>>>> 5204a3375f1a689566bb6a1e78684e94d2d90c73
 }
