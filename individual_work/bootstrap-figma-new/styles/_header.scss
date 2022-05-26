@@ -1,0 +1,116 @@
+
+header{
+    background-color: rgba(113, 121, 126, 1);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
+nav a img{
+    height: 8vh;
+}
+.not-visible{
+    display: none;
+}
+header button{
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+header button img{
+    border-radius: none;
+}
+nav ul{
+    position: fixed;
+    right: 0;
+    top: 8vh;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    height: 100vh;
+    padding-right: 1rem;
+    list-style-type:none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    header button{
+        display: none;
+
+    }
+    nav a img{
+        height: 10vh;
+    }
+    nav{
+        height: 10vh;
+    }
+    nav ul{
+        display: flex !important;
+        flex-direction: row;
+        gap: 1rem;
+        right: auto;
+        top: auto;
+        position: static;
+        height: auto;
+        background: none;
+        margin-top: 15px;
+    }
+    nav ul li{
+        list-style-type:none;
+        background-color: rgba(196, 196, 196, 1);
+        height: 2.5rem;
+        border-radius: 1rem;
+        filter: drop-shadow(8px 8px 4px rgba(255, 255, 255, 0.1));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    nav ul li a{
+
+        font-size: 1.2rem;
+        font-weight:600;
+    
+    
+    }
+}
+@media only screen and (min-width: 720px) {
+    
+    nav ul{
+        gap: 1rem;
+    }
+    nav ul li{
+        height: 2.5rem;
+        margin-bottom: 0;
+    }
+    nav ul li a{
+        font-size: 1.3rem;
+
+    }
+
+}
+@media only screen and (min-width: 900px) {
+    nav ul{
+        gap:2rem;
+    }
+    nav ul li{
+        height: 3rem;
+    }
+    nav ul li a{
+        font-size: 1.5rem;
+        padding: 1rem;
+
+    }
+
+}

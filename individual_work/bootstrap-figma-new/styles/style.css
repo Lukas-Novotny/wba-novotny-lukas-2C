@@ -1,0 +1,534 @@
+header {
+  background-color: #71797e;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 10vh;
+}
+
+nav a img {
+  height: 8vh;
+}
+
+.not-visible {
+  display: none;
+}
+
+header button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+header button img {
+  border-radius: none;
+}
+
+nav ul {
+  position: fixed;
+  right: 0;
+  top: 8vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  padding-right: 1rem;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (min-width: 600px) {
+  header button {
+    display: none;
+  }
+  nav a img {
+    height: 10vh;
+  }
+  nav {
+    height: 10vh;
+  }
+  nav ul {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 1rem;
+    right: auto;
+    top: auto;
+    position: static;
+    height: auto;
+    background: none;
+    margin-top: 15px;
+  }
+  nav ul li {
+    list-style-type: none;
+    background-color: #c4c4c4;
+    height: 2.5rem;
+    border-radius: 1rem;
+    -webkit-filter: drop-shadow(8px 8px 4px rgba(255, 255, 255, 0.1));
+            filter: drop-shadow(8px 8px 4px rgba(255, 255, 255, 0.1));
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5rem;
+  }
+  nav ul li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  nav ul {
+    gap: 1rem;
+  }
+  nav ul li {
+    height: 2.5rem;
+    margin-bottom: 0;
+  }
+  nav ul li a {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  nav ul {
+    gap: 2rem;
+  }
+  nav ul li {
+    height: 3rem;
+  }
+  nav ul li a {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+.back1 {
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  width: 100%;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 54vw;
+}
+
+.title-text p {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.line {
+  width: 80%;
+  height: 1px;
+  border-bottom: solid 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  .back1 {
+    height: 89vh;
+    max-height: 89vh;
+    width: 100vw;
+    background-image: url(../images/Rectangle-10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 15vw;
+    margin-top: 2vh;
+  }
+  .title {
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .title-text {
+    height: 100%;
+    width: 50vw;
+    text-align: end;
+    padding-right: 5vw;
+  }
+  .title-text p {
+    font-size: 7vw;
+    font-weight: 700;
+    text-shadow: 8px 8px 10px rgba(53, 47, 47, 0.6);
+  }
+  .line {
+    width: 95vw;
+    height: 1px;
+    border-bottom: solid 1px;
+  }
+}
+
+.back2 {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.first-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fisrt-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.first-par {
+  font-size: 1.2rem;
+  margin-inline: 3rem;
+  text-align: center;
+}
+
+.second-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.second-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.second-par {
+  font-size: 1.2rem;
+  margin-inline: 3rem;
+  text-align: center;
+}
+
+.third-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.third-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.third-par {
+  font-size: 1.2rem;
+  margin-inline: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .back2 {
+    gap: 3rem;
+  }
+  .first-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-inline: 3rem;
+  }
+  .fisrt-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .first-par {
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: start;
+  }
+  .second-text {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.5fr 2fr;
+        grid-template-columns: 0.5fr 2fr;
+    margin-inline: 3rem;
+  }
+  .image-founder {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+    -ms-grid-column-align: end;
+        justify-self: end;
+    padding-right: 2rem;
+  }
+  .second-title {
+    height: 100%;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .second-par {
+    font-size: 2rem;
+    margin-inline: 3rem;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+  }
+  .third-text {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 0.5fr;
+        grid-template-columns: 2fr 0.5fr;
+    margin-inline: 3rem;
+  }
+  .image-co-founder {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    padding-left: 2rem;
+  }
+  .third-title {
+    height: 100%;
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .third-par {
+    font-size: 2rem;
+    margin-inline: 3rem;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+  }
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background: linear-gradient(0.4turn, grey, white);
+}
+/*# sourceMappingURL=style.css.map */
