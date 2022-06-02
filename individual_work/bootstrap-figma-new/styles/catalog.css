@@ -56,6 +56,14 @@ nav ul li a {
   color: rgba(0, 0, 0, 0.75);
 }
 
+nav ul li a:hover {
+  color: #000000;
+}
+
+nav ul li:hover {
+  background-color: #a49898;
+}
+
 @media only screen and (min-width: 600px) {
   header button {
     display: none;
